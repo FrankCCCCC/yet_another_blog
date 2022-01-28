@@ -1,5 +1,5 @@
 ---
 category: 'skills'
-title: 'TypeScript'
+title: 'Python, ScikitLearn, Numpy'
 percentage: 76
 ---

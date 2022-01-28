@@ -1,5 +1,5 @@
 ---
 category: 'skills'
-title: 'JavaScript'
+title: 'Postgre, SQL'
 percentage: 77
 ---

@@ -1,9 +1,9 @@
 ---
 category: 'education'
-university: 'Columbia University'
+university: 'National Tsing Hua University'
 degree: 'Bachelor'
-startDate: 'Oct 2005'
+startDate: 'Sep 2017'
 endDate: 'Jul 2008'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Major in Computer Science and minor in Quantitative Finance.

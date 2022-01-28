@@ -31,7 +31,13 @@ module.exports = {
               maxWidth: 768,
               linkImagesToOriginal: false
             }
-          }
+          },
+          // {
+          //   resolve: `gatsby-remark-mathjax-ssr`,
+          //   options: {
+          //   }
+          // },
+          `gatsby-remark-mathjax`, 
         ]
       }
     },
@@ -59,6 +65,14 @@ module.exports = {
         tailwind: true,
         purgeOnly: [`src/assets/styles/global.css`]
       }
-    }
+    },
+    // {
+    //   resolve: `gatsby-transformer-remark`,
+    //   options: {
+    //     plugins: [
+    //       `gatsby-remark-mathjax`,
+    //     ],
+    //   },
+    // }
   ]
 };

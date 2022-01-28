@@ -8,6 +8,12 @@ tags: ['JavaScript', 'React']
 published: true
 ---
 
+# H1
+## H2
+### H3
+**BOLD**
+Paragraph
+
 _Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat._.
 
 **Sed ut perspiciatis unde omnis**

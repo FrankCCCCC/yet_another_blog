@@ -10,6 +10,8 @@ import 'assets/styles/global.css';
 import GlobalStyles from 'assets/styles/globalStyles';
 import * as Styled from './styles';
 
+import useScript from 'components/hook/useScript'
+
 interface Props {
   children: React.ReactNode;
 }
@@ -24,9 +26,27 @@ const Layout: React.FC<Props> = ({ children }) => {
       }
     }
   `);
+  // const MathJaxConfig = `
+  //   window.MathJax = {
+  //     tex2jax: {
+  //       inlineMath: [['$', '$'] ],
+  //       displayMath: [['$$', '$$'] ],
+  //       processEscapes: true,
+  //       processEnvironments: true,
+  //       skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+  //       TeX: {
+  //         equationNumbers: {autoNumber: 'AMS'},
+  //         extensions: ['AMSmath.js', 'AMSsymbols.js', 'color.js'],
+  //       },
+  //     }
+  //   };
+  //   `;
+  
+  // const url = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
+  // useScript(url)
 
   return (
-    <>
+    <html>
       <GlobalStyles />
       <AnimatePresence exitBeforeEnter>
         <Styled.Layout>
@@ -43,7 +63,7 @@ const Layout: React.FC<Props> = ({ children }) => {
           </motion.div>
         </Styled.Layout>
       </AnimatePresence>
-    </>
+    </html>
   );
 };
 

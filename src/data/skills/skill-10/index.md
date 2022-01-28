@@ -1,5 +1,5 @@
 ---
 category: 'skills'
-title: 'MPI, Cuda, Parallel Programming'
+title: 'Adobe XD'
 percentage: 41
 ---
